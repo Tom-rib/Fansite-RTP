@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Page d'Accueil - Fansite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOP NAVBAR -->
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">RTP</a>
+
+      <!-- Hamburger Menu Icon -->
+      <input type="checkbox" id="toggle-menu">
+      <label for="toggle-menu" class="hamburger">
+        <!-- Hamburger Icon Lines -->
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navigation Links -->
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropBtn" tabindex="0">Les PDG</a>
+          <ul class="dropMenu">
+            <li><a href="fansite1.html">Elon Musk</a></li>
+            <li><a href="fansite2.html">Sam Altman</a></li>
+            <li><a href="fansite3.html">Jensen Huang</a></li>
+          </ul>
+        </li>
+        <li><a href="lesdevs.html">Les Devs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <h1>Bienvenue sur notre Fansite</h1>
+    <p>Découvrez les parcours inspirants des plus grands PDG de la technologie.</p>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <section class="profiles">
+      <!-- CELEB 1 CARD PROFILE -->
+      <article class="profile-card">
+        <a href="fansite1.html">
+          <img src="./images/elon/elonmusk.jpg" alt="Elon Musk">
+        </a>
+        <div class="card-content">
+          <h2>Elon Musk</h2>
+          <p>Elon Musk : Savant entrepreneur.</p>
+          <a href="fansite1.html" class="btn">Voir Plus</a>
+        </div>
+      </article>
+
+      <!-- CELEB 2 CARD PROFILE -->
+      <article class="profile-card">
+        <a href="fansite2.html">
+          <img src="./images/sam/samaltman.png" alt="Sam Altman">
+        </a>
+        <div class="card-content">
+          <h2>Sam Altman</h2>
+          <p>Sam Altman : CEO d'OpenAI.</p>
+          <a href="fansite2.html" class="btn">Voir Plus</a>
+        </div>
+      </article>
+
+      <!-- CELEB 3 CARD PROFILE -->
+      <article class="profile-card">
+        <a href="fansite3.html">
+          <img src="./images/Jensen/jensenhuang.jpg" alt="Jensen Huang">
+        </a>
+        <div class="card-content">
+          <h2>Jensen Huang</h2>
+          <p>Jensen Huang : Fondateur de NVIDIA.</p>
+          <a href="fansite3.html" class="btn">Voir Plus</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2024 RTP - La Plateforme. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>

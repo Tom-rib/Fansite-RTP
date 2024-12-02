@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!-- TOP NAVBAR -->
+    <nav>
+        <ul class="menu">
+            <p class="logo-rtp">RTP</p>
+            <li>
+                <a href="index.html">Accueil</a>
+            </li>
+            <li>
+                <a href="#" class="dropBtn">Les PDG</a>
+                <ul class="dropMenu">
+                    <li class="dropped">
+                        <a href="fansite1.html">Elon Musk</a>
+                    </li>
+                    <li class="dropped">
+                        <a href="fansite2.html">Sam Altman</a>
+                    </li>
+                    <li class="dropped">
+                        <a href="fansite3.html">Jensen Huang</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="lesdevs.html">Les Devs</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- Contact Section -->
+        <section class="contact">
+            <h1>Formulaire de Contact</h1>
+            <form action="mailto:fansite-rtp@protonmail.com" method="post" enctype="text/plain">
+                <label for="fname">Prénom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Entrez votre prénom">
+
+                <label for="lname">Nom</label>
+                <input type="text" id="lname" name="lastname" placeholder="Entrez votre nom">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Entrez votre email">
+
+                <label for="country">Pays</label>
+                <select id="country" name="country">
+                    <option value="france">France</option>
+                    <option value="belgique">Belgique</option>
+                    <option value="suisse">Suisse</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Écrivez votre message ici" style="height:200px"></textarea>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 RTP - La Plateforme. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
